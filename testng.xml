@@ -1,0 +1,26 @@
+<suite name="SanityTesting">
+    <listeners>
+        <listener class-name="Listeners.ExtentReportListener"/>
+    </listeners>
+    <test name="Login">
+        <classes>
+            <class name="Testcases.Tests.Login"/>
+            <methods>
+                <include name="login_withInternet"/>
+            </methods>
+        </classes>
+    </test>
+
+    <test name="OTP_Verification">
+        <classes>
+            <class name= "Testcases.Tests.OTP_Verification" />
+        </classes>
+    </test>
+
+
+    <test name="Pin Set">
+        <classes>
+            <class name= "Testcases.Tests.Pin_Set" />
+        </classes>
+    </test>
+</suite>
