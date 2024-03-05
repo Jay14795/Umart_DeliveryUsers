@@ -10,7 +10,10 @@ import java.time.Duration;
 import java.util.Arrays;
 
 public class OTP_Verify {
-    public static void OTP(AppiumDriver<MobileElement> driver) {
+    public static void OTP(AppiumDriver<MobileElement> driver) throws InterruptedException {
+
+        Classes.Login.login(driver);
+
         final var finger1 = new PointerInput(PointerInput.Kind.TOUCH, "finger1");
         var tapPoint = new Point(82, 493);
         var tap = new Sequence(finger1, 1);
@@ -74,5 +77,7 @@ public class OTP_Verify {
         tap.addAction(new PointerInput(PointerInput.Kind.TOUCH, "finger7").createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
         driver.perform(Arrays.asList(tap));
 
+        driver.findElementByAccessibilityId("Verify & Continue").click();
+        Thread.sleep(5000);
     }
 }

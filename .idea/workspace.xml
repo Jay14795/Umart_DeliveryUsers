@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab6f14d4-a2d8-42e3-aa65-14de24040142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Apps/Umart_CustomersDev/Umart_Dev_19_Jan.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Apps/Umart_DeliveryusersDev/app-release.apk" afterDir="false" />
+    <list default="true" id="ab6f14d4-a2d8-42e3-aa65-14de24040142" name="Changes" comment="Updates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/OTP_Verify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Classes/OTP_Verify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Classes/Set_Pin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Classes/Set_Pin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Tests/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/Tests/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Tests/OTP_Verification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/Tests/OTP_Verification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Testcases/Tests/Pin_Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Testcases/Tests/Pin_Set.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,53 +63,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Automated Projects\Umart_DeliveryUsers\src\test\java" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Classes" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Automated Projects/Umart_DeliveryUsers/testng.xml">
-    <configuration name="D:/Automated Projects/Umart_DeliveryUsers/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Umart_DeliveryUsers" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Umart_DeliveryUsers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testcases.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Testcases.Tests" />
-      <option name="MAIN_CLASS_NAME" value="Testcases.Tests.Login" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Login.login_withInternet" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Umart_DeliveryUsers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testcases.Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Testcases.Tests" />
-      <option name="MAIN_CLASS_NAME" value="Testcases.Tests.Login" />
-      <option name="METHOD_NAME" value="login_withInternet" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Ongoing">
     <configuration name="OTP_Verification" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Umart_DeliveryUsers" />
       <extension name="coverage">
@@ -125,6 +78,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Testcases.Tests" />
       <option name="MAIN_CLASS_NAME" value="Testcases.Tests.OTP_Verification" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ongoing" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Umart_DeliveryUsers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases.Tests" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.Tests.Ongoing" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -149,13 +119,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Pin_Set.setPin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Umart_DeliveryUsers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases.Tests" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.Tests.Pin_Set" />
+      <option name="METHOD_NAME" value="setPin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Start_Delivery" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Umart_DeliveryUsers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcases.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases.Tests" />
+      <option name="MAIN_CLASS_NAME" value="Testcases.Tests.Start_Delivery" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Automated Projects/Umart_DeliveryUsers/testng.xml" />
+        <item itemvalue="TestNG.Ongoing" />
+        <item itemvalue="TestNG.Start_Delivery" />
         <item itemvalue="TestNG.Pin_Set" />
+        <item itemvalue="TestNG.Pin_Set.setPin" />
         <item itemvalue="TestNG.OTP_Verification" />
-        <item itemvalue="TestNG.Login.login_withInternet" />
-        <item itemvalue="TestNG.Login" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +173,14 @@
       <option name="presentableId" value="Default" />
       <updated>1709278687266</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updates">
+      <created>1709289179577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709289179577</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,5 +193,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
   </component>
 </project>
